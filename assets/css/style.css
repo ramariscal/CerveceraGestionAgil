@@ -1,0 +1,24 @@
+/* Estilos para el encabezado */
+header {
+    background-image: url('/assets/img/background.jpg'); /* Imagen de fondo del encabezado */
+    background-size: cover; /* Ajuste de tamaño de la imagen de fondo */
+    background-position: center; /* Posición del centro de la imagen de fondo */
+  }
+  
+  /* Estilos para el logotipo de la empresa en el encabezado */
+  header nav div a .logoempresa {
+      width: 180px; /* Ancho del logotipo */
+      height: 136px; /* Altura del logotipo */
+  }
+  
+  /* Estilos para los elementos de lista en la barra de navegación del encabezado */
+  header nav div div ul li {
+      margin: 0px 20px 30px 20px; /* Márgenes de los elementos de lista */
+  }
+  
+  /* Estilos para el enlace activo en la barra de navegación */
+  .navbar-nav .nav-link.active {
+      background-color: rgba(255, 165, 0, 0.5); /* Color de fondo del enlace activo */
+      border-radius: 10px; /* Radio de borde del enlace activo */
+  }
+  
