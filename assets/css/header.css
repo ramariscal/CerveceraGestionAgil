@@ -1,6 +1,6 @@
 /* Estilos para el encabezado */
 header {
-    background-image: url('../img/background_body.jpg'); /* Imagen de fondo del encabezado */
+    background-image: url('../img/background.jpg'); /* Imagen de fondo del encabezado */
     background-size: cover; /* Ajuste de tamaño de la imagen de fondo */
     background-position: center; /* Posición del centro de la imagen de fondo */
 }
