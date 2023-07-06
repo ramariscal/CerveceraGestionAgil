@@ -6,7 +6,7 @@ body {
   
   .container2{
     color: black;
-    background-image: url(/assets/img/background_body.jpg);
+    background-image: url(../img/background_body.jpg);
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.5); /* Opacidad de la imagen de fondo */
