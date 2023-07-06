@@ -1,0 +1,52 @@
+.container2 h2, p{
+  text-align: center;
+}
+
+.subtitulo{
+  font-size: 20px;
+}
+/* EDICION DE CURSOS */
+.posicionCard{
+  margin: 0 3%;
+}
+.card-img-wrapper {
+  width: 200px; /* Ajusta el ancho máximo de la imagen según tus necesidades */
+  height: 200px; /* Ajusta la altura máxima de la imagen según tus necesidades */
+  overflow: hidden; /* Oculta el contenido que exceda las dimensiones del contenedor */
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta la imagen proporcionalmente sin distorsión */
+}
+
+.card-text{
+  text-align: start;
+}
+
+.card-title{
+  font-size: 30px;
+}
+/* EDICION DE PRODUCTOS */
+.card {
+  background-color: rgba(0, 0, 0, 0.5); /* Opacidad del 50% */
+  color: #fff; /* Color del texto para que se vea en contraste con el fondo */
+}
+.cardProductos{
+  width: 220px; /* Tamaño cuadrado para todas las cards */
+  margin-bottom: 50px; /* Margen inferior de 50px entre las cards */
+  margin-left: 15%;
+}
+.card-img-top {
+  height: 200px; /* Ajusta la altura de la imagen según tus necesidades */
+  object-fit: contain; /* Muestra la imagen completa sin distorsionarla */
+  object-position: center; /* Centra la imagen dentro de la card */
+  margin: 0 auto; /* Centra horizontalmente la imagen */
+}
+.modalidad img {
+  width: 100%; /* Ajusta el ancho al 60% */
+  height: auto; /* Ajusta la altura automáticamente */
+  max-height: 70vh; /* Establece la altura máxima al 40% del viewport */
+  object-fit: contain; /* Muestra la imagen completa sin distorsionarla */
+}
